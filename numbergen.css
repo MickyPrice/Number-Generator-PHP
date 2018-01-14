@@ -1,0 +1,40 @@
+nav{background-color:#9a9a9a;width:98%;padding:30px;margin:-15px;text-align: center;color:white;text-decoration: none;}
+nav a{color:white;text-decoration: none;padding:30px;}
+nav a:hover{background-color:#8a8a8a;}
+
+#list input{width:96%;display:inline-block;padding:20px;margin-bottom:10px;}
+#list input[type="submit"]{width:100%;}
+#list textarea{min-width:96%;min-height:300px;max-width:96%;padding:20px;}
+
+#random input{padding:20px;width:30%;}
+#random textarea{width:94.6%;padding:20px;max-width:96%;}
+*:focus{outline-color:orange}
+.container {
+  overflow-x: hidden;
+  padding:50px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:white;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+header{text-align: center;}
+header h1{font-size:52px;}
+header h2{font-size:32px;}
+body{font-family: sans-serif;background-color:#4a4a4a;}
+header a{color:#3a3a3a;text-decoration: underline;}
